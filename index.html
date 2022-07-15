@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tip Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <section>
+        <div class="container">
+            <div class="calc">
+                <h2>
+                    Tip Calculator
+                </h2>
+                <form action="">
+                <div>
+                    <label for =""> Bill:</label>
+                    <input type ="text" placeholder="$" class="bill">
+                </div>
+                <div>
+                    <label for =""> Rate Service:</label>
+                    <select name ="" class="rate" ><option disabled selected value ="0">
+                        --select an option--
+                        </option>
+                        <option value ="0.15">15% - Excellent</option>
+                        <option value ="0.1">10% - Good</option>
+                        <option value ="0.05">5% - Fair</option>
+                    </select>
+                    </div>
+                    <button type="button" class="btn">Calculate</button>
+                    <p class="error">Please Enter Bill and Rate Service</p>
+                </form>
+                <div class="result">
+                    <p class="tip"> Top Amount: $0</p>
+                    <p class="total"> Top Amount: $0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <script src="script.js" async defer></script>
+    </body>
+    <footer>
+       © Rajiv Project 
+    </footer>
+</html>
